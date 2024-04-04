@@ -1,0 +1,47 @@
+      
+        #body {
+            z-index:20;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+           
+
+        }
+        #eyes{
+            z-index: 30;
+            position: absolute;
+            top: 200px;
+            left: 190px;
+            animation: blink 3s infinite;
+            transition: width 0.3s, height 0.3s;
+        }
+ 
+        #BG{
+
+            z-index:10;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+        }
+
+         button {
+            position: absolute;
+            top: 675px;
+            left: 300px;
+            background-color: rgb(242, 221, 199);
+
+    }
+
+    @keyframes blink {
+        0%, 50%, 100% { transform: scaleY(1); }
+        25%, 75% {transform: scaleY(.75);}
+
+    }
+
+    #body2 {
+            z-index:20;
+            position: absolute;
+            top: 0px;
+            left: 894px;
+            background-image: url("images/OctoBG\ copy.PNG");
+    }
